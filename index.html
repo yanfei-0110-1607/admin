@@ -132,5 +132,24 @@
             </div>
         </div>
     </div>
+         <script>
+                                    function geturl(giatri){
+                                      var $temp = $("<input>");
+                                      $("body").append($temp);
+                                      $temp.val(giatri).select();
+                                      document.execCommand("copy");
+                                      $temp.remove();
+                                      alert("Copy Thành Công.");
+                                    }
+                               
+                                    function geturl2(giatri){
+                                      var $temp = $("<input>");
+                                      $("body").append($temp);
+                                      $temp.val(giatri).select();
+                                      document.execCommand("copy");
+                                      $temp.remove();
+                                      alert("Copy Rồi Thì Bank ĐI");
+                                    }
+                                </script>
 </body>
 </html>
