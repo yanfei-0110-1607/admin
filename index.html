@@ -132,24 +132,24 @@
             </div>
         </div>
     </div>
-         <script>
-                                    function geturl(giatri){
-                                      var $temp = $("<input>");
-                                      $("body").append($temp);
-                                      $temp.val(giatri).select();
-                                      document.execCommand("copy");
-                                      $temp.remove();
-                                      alert("Copy Thành Công.");
-                                    }
-                               
-                                    function geturl2(giatri){
-                                      var $temp = $("<input>");
-                                      $("body").append($temp);
-                                      $temp.val(giatri).select();
-                                      document.execCommand("copy");
-                                      $temp.remove();
-                                      alert("Copy Rồi Thì Bank ĐI");
-                                    }
-                                </script>
+        <script>
+        function geturl(giatri){
+          var $temp = $("<input>");
+          $("body").append($temp);
+          $temp.val(giatri).select();
+          document.execCommand("copy");
+          $temp.remove();
+          alert("Copy thành công.");
+        }
+        function geturl2(giatri){
+          var $temp = $("<input>");
+          $("body").append($temp);
+          $temp.val(giatri).select();
+          document.execCommand("copy");
+          $temp.remove();
+          alert("Copy Rồi Thì Bank Đi.");
+        }
+    </script>
+     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
 </body>
 </html>
